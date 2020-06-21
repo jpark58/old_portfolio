@@ -172,7 +172,7 @@ p {
   margin: auto;
 }
 
-.section_container {
+.section__container {
   max-width: 1200px;
   margin: auto;
 }
@@ -180,7 +180,7 @@ p {
 /* About*/
 .about__majors {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 80px 0;
 }
 
