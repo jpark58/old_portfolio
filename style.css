@@ -146,9 +146,8 @@ p {
   display: none;
 }
 
-.icon {
-  width: 32px;
-  height: 32px;
+.fa-laptop {
+  margin-right: 8px;
 }
 
 /* Home*/
