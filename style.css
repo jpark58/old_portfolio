@@ -98,12 +98,21 @@ p {
 /* Navbar*/
 
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-blue);
+  background-color: transparent;
   align-items: center;
   color: var(--color-light-white);
   padding: 16px;
+  transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-blue);
+  padding: 6px;
 }
 
 .navbar__menu {
@@ -149,6 +158,7 @@ p {
   background: url("imgs/home-background.png") center/cover no-repeat;
   padding: 40px;
   text-align: center;
+  padding-top: 120px;
 }
 
 .home__avatar {
@@ -193,7 +203,7 @@ p {
   margin: 80px 0;
 }
 
-.major_icon {
+.major__icon {
   width: 170px;
   height: 170px;
   line-height: 170px;
@@ -204,20 +214,20 @@ p {
   border-radius: 50%;
   margin-bottom: 16px;
 }
-.major_icon i {
+.major__icon i {
   transition: all var(--animation-duration) ease;
 }
-.major_icon:hover i {
+.major__icon:hover i {
   color: var(--color-pink);
   transform: rotate(-30deg) scale(1.1);
 }
 
-.major_title,
-.major_description {
+.major__title,
+.major__description {
   color: var(--color-dark-grey);
 }
 
-.major_description {
+.major__description {
   font-size: var(--font-small);
 }
 
@@ -232,7 +242,7 @@ p {
 }
 
 .experience__name,
-.experience_period {
+.experience__period {
   color: var(--color-light-grey);
 }
 
@@ -240,7 +250,7 @@ p {
   font-size: var(--font-small);
 }
 
-.experience_period {
+.experience__period {
   font-size: var(--font-micro);
 }
 
