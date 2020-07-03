@@ -54,7 +54,7 @@
           I'm Jinseo Park.
         </h1>
         <h2 class="home__description">
-          A junior computer science student at University of Maryland, College
+          Junior Computer Science Student <br />@University of Maryland, College
           Park
         </h2>
         <button class="home__contact">Contact Me</button>
@@ -63,7 +63,12 @@
     <!-- About -->
     <section id="about" class="section section__container">
       <h1>About me</h1>
-      <p>Hello I'm Jinseo</p>
+      <p>
+        I am junior computer science student at UMD and currently looking for a
+        career opportunity as a software engineer. My career goal is becoming a
+        full-stack developer. My skillset and works are described below. Please
+        feel free to contact me. I would love to follow up ASAP.
+      </p>
       <div class="about__majors">
         <div class="major">
           <div class="major__icon"><i class="fab fa-html5"></i></div>
@@ -78,12 +83,14 @@
       </div>
       <div class="about__experience">
         <div class="experience">
-          <img
-            src="imgs/experience/umd_logo.jpg"
-            alt="umd_logo"
-            width="100"
-            class="experience__logo"
-          />
+          <div>
+            <img
+              src="imgs/experience/umd_logo.jpg"
+              alt="umd_logo"
+              width="150"
+              class="experience__logo"
+            />
+          </div>
           <div class="experience__description">
             <p class="experience__name">Universiry of Maryland College Park</p>
             <p class="experience__major">Computer Science</p>
@@ -93,7 +100,9 @@
           </div>
         </div>
         <div class="experience">
-          <i class="fas fa-university"></i>
+          <div>
+            <i class="fas fa-university fa-2x"></i>
+          </div>
           <div class="experience__description">
             <p class="experience__name">Howard Community College</p>
             <p class="experience__major">Computer Science</p>
@@ -101,12 +110,14 @@
           </div>
         </div>
         <div class="experience">
-          <img
-            src="imgs/experience/dsme.png"
-            alt="dsme_logo"
-            width="100"
-            class="experience__logo"
-          />
+          <div>
+            <img
+              src="imgs/experience/dsme.png"
+              alt="dsme_logo"
+              width="100%"
+              class="experience__logo"
+            />
+          </div>
           <div class="experience__description">
             <p class="experience__name">
               Daewoo Shipbuilding&Marine Engineering
@@ -123,10 +134,12 @@
         <h1>Skills</h1>
         <h2>Skills & Attributes</h2>
         <p>
-          Experience with all phases of the software life-cycle. Passion for
-          learning new technologies. Capable of working within a team
-          environment and independently. Ability to plan and time schedule, work
-          under strict time pressure and adapt quickly when needed.
+          Skilled in Java and C.<br />
+          Strong computer science theory background pursuing Bachelor's Degree
+          in Computer Science. <br />Passion for learning new technologies.
+          Capable of working within a team environment and independently.
+          Ability to plan and time schedule, work under strict time pressure and
+          adapt quickly when needed.
         </p>
         <div class="skillset">
           <div class="skillset__left">
@@ -152,6 +165,24 @@
             <div class="skill">
               <div class="skill__description">
                 <span>HTML, CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Javascript</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>React</span>
                 <span>80%</span>
               </div>
               <div class="skill__bar">
@@ -160,11 +191,11 @@
             </div>
             <div class="skill">
               <div class="skill__description">
-                <span>Javascript: Nodejs, React</span>
-                <span>80%</span>
+                <span>Nodejs</span>
+                <span>70%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 80%;"></div>
+                <div class="skill__value" style="width: 70%;"></div>
               </div>
             </div>
           </div>
@@ -198,70 +229,84 @@
         <h3>Projects</h3>
         <div class="work__categories">
           <button class="category__btn selected" data-filter="*">
-            All<span class="category__count">6</span>
+            All<span class="category__count">4</span>
           </button>
           <button class="category__btn" data-filter="front-end">
-            Front-end<span class="category__count">1</span>
+            Front-end<span class="category__count">2</span>
           </button>
           <button class="category__btn" data-filter="back-end">
-            Back-end<span class="category__count">3</span>
-          </button>
-          <button class="category__btn" data-filter="school">
-            School<span class="category__count">2</span>
+            Back-end<span class="category__count">2</span>
           </button>
         </div>
 
         <div class="work__projects">
           <a
-            href="https://naver.com"
+            href="https://github.com/jpark58/kakao-clone"
             class="project"
             target="blank"
             data-type="front-end"
           >
             <img
-              src="imgs/projects/blackjack.png"
-              alt="blackjack"
+              src="imgs/projects/output.png"
+              alt="Kakao"
               width="300"
               class="project__img"
             />
             <div class="project__description">
-              <h3>Blackjack</h3>
-              <span>Implementing logic part of Blackjack game</span>
+              <h3>Messanger UI</h3>
+              <span>HTML + CSS</span>
             </div>
           </a>
 
           <a
-            href="https://naver.com"
+            href="https://github.com/jpark58/movie_app"
+            class="project"
+            target="blank"
+            data-type="front-end"
+          >
+            <img
+              src="imgs/projects/movieapp.png"
+              alt="movieapp"
+              width="300"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>Movie Recommendation App</h3>
+              <span>Javacript + React</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/jpark58/-Old-Web-App-Nodejs-Express"
             class="project"
             target="blank"
             data-type="back-end"
           >
             <img
-              src="imgs/projects/blackjack.png"
-              alt="blackjack"
+              src="imgs/projects/expressjs.png"
+              alt="Express.js"
               width="300"
               class="project__img"
             />
             <div class="project__description">
-              <h3>Blackjack</h3>
-              <span>Implementing logic part of Blackjack game</span>
+              <h3>[Old] Web Server</h3>
+              <span>Nodejs + Exressjs</span>
             </div>
           </a>
           <a
-            href="https://naver.com"
+            href="https://github.com/jpark58/-Old-Web_App_Nodejs-MySQL"
             class="project"
             target="blank"
-            data-type="school"
+            data-type="back-end"
           >
             <img
-              src="imgs/projects/blackjack.png"
-              alt="blackjack"
+              src="imgs/projects/mysql.png"
+              alt="MySQL"
               width="300"
               class="project__img"
             />
             <div class="project__description">
-              <h3>Blackjack</h3>
-              <span>Implementing logic part of Blackjack game</span>
+              <h3>[Old] Web Server</h3>
+              <span>Nodejs + Exressjs + MySQL</span>
             </div>
           </a>
         </div>
@@ -271,25 +316,72 @@
     <section id="courses" class="section">
       <div class="section__container">
         <h1>Courses</h1>
-        <h3>See what I have learned</h3>
+        <h3>See what I am currently learning and have learned so far.</h3>
         <div class="course">
           <div class="course__bubble">
             <p>
-              CMSC 132 - Object-Oriented Programming II <br />
-              Introduction to use of computers to solve problems using software
-              engineering principles. Design, build, test, and debug medium
-              -size software systems and learn to use relevant tools. Use
-              object-oriented methods to create effective and efficient problem
-              solutions. Use and implement application programming interfaces
-              (APIs). Programming done in Java.
+              <b>CMSC 451 - Design and Analysis of Computer Algorithms</b>
+              <br />
+              Fundamental techniques for designing efficient computer
+              algorithms, proving their correctness, and analyzing their
+              complexity. General topics include graph algorithms, basic
+              algorithm design paradigms (such as greedy algorithms,
+              divide-and-conquer, and dynamic programming), network flows,
+              NP-completeness, and other selected topics in algorithms.
             </p>
-            <p>2019 Fall</p>
+            <p>2020 Fall</p>
           </div>
         </div>
         <div class="course">
           <div class="course__bubble">
             <p>
-              CMSC 216 - Introduction to Computer Systems <br />
+              <b>CMSC 389N - Introduction to PHP and Javascript</b> <br />
+              This course provides an introduction to the development of single
+              page Web-based applications (SPA's) using Javascript for both the
+              front end client and back-end api/service. We will be devloping
+              applications using a micro-service architecture pattern and
+              discussing throughout the evolution of web application
+              architectures and current trends.
+            </p>
+            <p>2020 Fall</p>
+          </div>
+        </div>
+
+        <div class="course">
+          <div class="course__bubble">
+            <p>
+              <b>CMSC 330 - Organization of Programming Languages</b> <br />
+              A study of programming languages, including their syntax,
+              semantics, and implementation. Several different models of
+              languages are discussed, including dynamic, scripting (e.g., Ruby,
+              Python) functional (e.g., OCaml, Haskell, Scheme), and memory safe
+              systems programming (e.g., Rust). Explores language features such
+              as formal syntax, scoping and binding of variables, higher-order
+              programming, typing, and type polymorphism. Introduces finite
+              automata, context free grammar, parsing, lambda calculus, and
+              basics of security attacks and software security.
+            </p>
+            <p>2020 Fall</p>
+          </div>
+        </div>
+
+        <div class="course">
+          <div class="course__bubble">
+            <p>
+              <b>CMSC 351 - Algorithms</b> <br />
+              A systematic study of the complexity of some elementary algorithms
+              related to sorting, graphs and trees, and combinatorics.
+              Algorithms are analyzed using mathematical techniques to solve
+              recurrences and summations.
+            </p>
+            <p>2020 Spring</p>
+          </div>
+        </div>
+
+        <div class="course">
+          <div class="course__bubble">
+            <p>
+              <b>CMSC 216 - Introduction to Computer Systems</b> <br />
               Introduction to the interaction between user programs and the
               operating system/hardware. Major topics include C programming,
               introductory systems programming, and assembly language. Other
@@ -297,17 +389,19 @@
               management, optimization, and virtual memory. Programming is done
               in the Linux Environment.
             </p>
-            <p>2019 Fall</p>
+            <p>2020 Spring</p>
           </div>
         </div>
         <div class="course">
           <div class="course__bubble">
             <p>
-              CMSC 351 - Algorithms <br />
-              A systematic study of the complexity of some elementary algorithms
-              related to sorting, graphs and trees, and combinatorics.
-              Algorithms are analyzed using mathematical techniques to solve
-              recurrences and summations.
+              <b>CMSC 132 - Object-Oriented Programming II </b><br />
+              Introduction to use of computers to solve problems using software
+              engineering principles. Design, build, test, and debug medium
+              -size software systems and learn to use relevant tools. Use
+              object-oriented methods to create effective and efficient problem
+              solutions. Use and implement application programming interfaces
+              (APIs). Programming done in Java.
             </p>
             <p>2019 Fall</p>
           </div>
