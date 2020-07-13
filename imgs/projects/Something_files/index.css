@@ -1,0 +1,68 @@
+body {
+  background-color: #2c3e50;
+  font-size: x-large;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+body {
+  color: whitesmoke;
+  transition: color 0.5s ease-in-out;
+}
+
+.js-clock,
+.header,
+.js-form,
+.greetings,
+.js-toDoForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.js-toDoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
