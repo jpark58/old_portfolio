@@ -235,12 +235,17 @@ p {
 
 .experience {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
+.experience__logo {
+  flex-basis: 50%;
+}
+
 .experience__description {
-  margin: 0 16px 0 40px;
+  flex-basis: 50%;
+  margin: 0 16px 0 0;
   text-align: left;
 }
 
